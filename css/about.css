@@ -283,7 +283,11 @@ div#small-dialog1 iframe {
   margin-right: auto;
   margin-left: auto;
 }
-
+@media(max-width: 576px){
+  .web .img img{
+    width: 100%;
+  }
+}
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
