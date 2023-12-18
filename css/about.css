@@ -244,6 +244,37 @@ div#small-dialog1 iframe {
   color: #666;
   opacity: 0.8;
 }
+
+/* WEB */
+.web{
+  background-color: #f8f9fa;
+}
+.web .item_bg{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.web .web_item span{
+  color: #009f4d;
+  font-size: 35px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.web .web_item h4{
+  font-size: 22px;
+  line-height: 28px;
+  color: #3f3a64;
+  font-weight: 600;
+}
+.web .web_item p{
+  font-size: 17px;
+  color: #666;
+  line-height: 27px;
+  opacity: 0.8;
+}
+.web .img img{
+  border-radius: 8px;
+}
 /*-- container --*/
 .container {
   width: 100%;
