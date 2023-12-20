@@ -276,7 +276,7 @@ div#small-dialog1 iframe {
   border-radius: 8px;
 }
 /* Business */
-.business{
+.business {
   background-image: url(./../img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,7 +286,7 @@ div#small-dialog1 iframe {
   display: grid;
   align-items: center;
 }
-.business::before{
+.business::before {
   content: "";
   background-color: rgba(29, 42, 55, 0.7);
   position: absolute;
@@ -296,16 +296,16 @@ div#small-dialog1 iframe {
   height: 100%;
   width: 100%;
 }
-.business .item_text{
+.business .item_text {
   max-width: 700px;
 }
-.business .title h2{
+.business .title h2 {
   color: white;
 }
-.business .item_text p{
+.business .item_text p {
   color: white;
 }
-.business .video-play-icon{
+.business .video-play-icon {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -320,6 +320,67 @@ div#small-dialog1 iframe {
   border: 3px solid white;
 }
 
+/* PROFESSIONALS */
+/* .professionals .item {
+  position: relative;
+} */
+.professionals .item_img{
+  position: relative;
+}
+.professionals .item img {
+  /* width: 100%; */
+  border-radius: 8px;
+}
+.professionals .overlay {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  background-color: rgba(20, 20, 20, 0.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  color: white;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+.professionals .item_img:hover .overlay{
+  opacity: 1;
+}
+.professionals .overlay_content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10%;
+  width: 100%;
+  z-index: 2;
+  overflow: hidden;
+  transition: all .2s;
+}
+.professionals .item_img:hover .overlay_content{
+  opacity: 1;
+  /* position: absolute; */
+  bottom: 20%;
+  /* margin-top: -100px; */
+  /* transform: translateY(-55%); */
+}
+.professionals .overlay .icon_social a{
+  text-decoration: none;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+.professionals .overlay .icon_social i{
+  color: white;
+}
+.professionals h6.team_title {
+  font-weight: 600;
+  font-size: 20px;
+  transition: all .2s;
+}
+.professionals h6.team_title:hover{
+  color: #009f4d;
+  cursor: pointer;
+}
 /* ---------Responsive ------------*/
 @media (max-width: 1200px) {
   .company .company_img .bg-shape {
@@ -351,8 +412,8 @@ div#small-dialog1 iframe {
     gap: 30px;
   }
 }
-@media (max-width: 760px){
-  .business .business_content{
+@media (max-width: 760px) {
+  .business .business_content {
     padding: 0 15px;
   }
 }
@@ -384,7 +445,7 @@ div#small-dialog1 iframe {
   }
   .web .item_bg {
     grid-template-columns: 1fr;
-}
+  }
 }
 
 @media (max-width: 415px) {
@@ -416,8 +477,6 @@ div#small-dialog1 iframe {
     line-height: 30px;
   }
 }
-
-
 
 /*-- container --*/
 .container {
