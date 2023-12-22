@@ -381,6 +381,58 @@ div#small-dialog1 iframe {
   color: #009f4d;
   cursor: pointer;
 }
+
+/* Choose */
+.choose{
+  background-color: #f7f7f7;
+}
+.choose .title{
+  max-width: 800px;
+  margin: auto;
+}
+.choose .choose_icon .icon_bg{
+  /* padding: 30px; */
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 28px;
+  color: #009f4d;
+  border: 1px solid #009f4d;
+  border-radius: 8px;
+}
+.choose .choose_text h3{
+  margin: 0 0 12px 0;
+  color: #3f3a64;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all .4s;
+}
+.choose .choose_text h3:hover{
+  color: #009f4d;
+  cursor: pointer;
+}
+.choose .choose_text p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Project */
+.project .title{
+  max-width: 700px;
+}
+.project .title p{
+  font-size: 17px;
+  line-height: 27px;
+  opacity: .9;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
 /* ---------Responsive ------------*/
 @media (max-width: 1200px) {
   .company .company_img .bg-shape {
