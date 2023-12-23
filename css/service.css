@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
 }
+.title_container {
+  max-width: 800px;
+  margin: auto;
+}
 .title p {
   color: #7e7d7d;
   font-size: 14px;
@@ -134,10 +138,6 @@ header {
 .check {
   background-color: #f7f7f7;
 }
-.check .title {
-  max-width: 800px;
-  margin: auto;
-}
 .check .check_item_container {
   background-color: #fff;
   padding: 45px 50px;
@@ -157,25 +157,67 @@ header {
   opacity: 0.8s;
   line-height: 27px;
 }
-.check .check_item_img img{
-    width: 100%;
+.check .check_item_img img {
+  width: 100%;
 }
 
 /* Industries */
+.industries .industries_item_bg{
+    padding: 0 15px;
+}
+.industries .item_box{
+    padding: 50px 35px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 0 #f8fafa;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    border-radius: 8px;
+}
+.industries .item_box i{
+    font-size: 38px;
+    color: #009f4d;
+    width: 40px;
+    /* font-weight: 400; */
+}
+.industries .item_box_text h4{
+    color: #3f3a64;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all .5s;
+}
+.industries .item_box_text h4:hover{
+    color: #009f4d;
+    cursor: pointer;
+}
+.industries .item_box_text p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+}
 
 
 
 
 /* ---------Responsive ------------*/
 @media (max-width: 1200px) {
-    .check .check_item_img img {
-        height: 100%;
-    }
+  .check .check_item_img img {
+    height: 100%;
+  }
 }
 @media (max-width: 1080px) {
   .title h2 {
     font-size: 32px;
     line-height: 40px;
+  }
+  .industries .item_box{
+    padding: 50px 30px;
+    gap: 10px;
+  }
+  .industries .item_box i{
+    font-size: 30px;
   }
 }
 @media (max-width: 992px) {
@@ -184,10 +226,13 @@ header {
   }
 }
 @media (max-width: 760px) {
-    .check .check_item_text h3{
-        font-size: 24px;
-        line-height: 32px;
-    }
+  .check .check_item_text h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .industries .item_box{
+    padding: 40px 30px;
+  }
 }
 @media (max-width: 576px) {
   .banner .banner_content h2 {
@@ -206,9 +251,9 @@ header {
 }
 
 @media (max-width: 480px) {
-    .check .check_item_container {
-        padding: 35px 20px;
-    }
+  .check .check_item_container {
+    padding: 35px 20px;
+  }
 }
 
 @media (max-width: 415px) {
@@ -218,6 +263,16 @@ header {
   }
   .button .btn-style {
     padding: 12px 30px;
+  }
+  .industries .item_box{
+    padding: 30px 25px;
+  }
+  .industries .item_box i{
+    font-size: 28px;
+  }
+  .industries .item_box_text h4{
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 384px) {
