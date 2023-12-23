@@ -440,13 +440,7 @@ div#small-dialog1 iframe {
     height: 450px;
   }
 }
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
+
 @media (max-width: 1080px) {
   .title h2 {
     font-size: 32px;
@@ -467,6 +461,9 @@ div#small-dialog1 iframe {
 @media (max-width: 760px) {
   .business .business_content {
     padding: 0 15px;
+  }
+  .choose .choose_text h3 {
+    font-size: 22px;
   }
 }
 @media (max-width: 576px) {
@@ -515,6 +512,16 @@ div#small-dialog1 iframe {
     font-size: 26px;
     line-height: 32px;
   }
+  .choose .choose_icon .icon_bg {
+    font-size: 22px;
+    height: 62px;
+    width: 62px;
+    line-height: 62px;
+  }
+  .choose .choose_text h3 {
+    font-size: 20px;
+  }
+
 }
 @media (max-width: 384px) {
   .banner .banner_content h2 {
@@ -538,7 +545,13 @@ div#small-dialog1 iframe {
   margin-right: auto;
   margin-left: auto;
 }
-
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px !important;
