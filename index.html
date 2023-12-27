@@ -1,11 +1,774 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- FontAwesome 6.2.0 CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+
+        <!-- gg font Jost -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+        <!-- animate js -->
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+        <!-- wow js -->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!-- fancybox -->
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
+        <!-- slick cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <!-- mycss -->
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+
+    <body>
+        <!-- header -->
+        <header class="nav-fixed">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+                    <div class="container-fluid">
+                      <h1>
+                        <a class="navbar-brand" href="#">
+                            <i class="fa-solid fa-align-right"></i>
+                            corp vision
+                            <span>vision to your future</span>
+                        </a>
+                      </h1>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">blog posts</a></li>
+                              <li><a class="dropdown-item" href="#">404 page</a></li>
+                              <li><a class="dropdown-item" href="#">landing page</a></li>
+                              <li><a class="dropdown-item" href="#">elements page</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        </ul>
+                        <!-- search -->
+                        <div class="searchButton">
+                            <div class="searchItem">
+                                <div class="searchIcon bg-success">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        
+        <!-- banner -->
+        <section class="banner">
+            <div class="bannerOverlay"></div>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./image/b1.jpg" class="d-block w-100" alt="...">
+                    <div class="carouselContent">
+                        <h1 class="wow animate__animated animate__flipInX">We will show your issues<br> our vision to your future</h1>
+                        <p class="wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, eligendi!<br> Ullam in totam aliquam et eius id magni. quis voluptas! Voluptatem nobis iusto explicabo!</p>
+                        <button class="wow animate__animated animate__fadeInUp animate__delay-2s">Learn More</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image/b2.jpg" class="d-block w-100" alt="...">
+                    <div class="carouselContent">
+                        <h1 class="wow animate__animated animate__fadeInDown">We will show your issues<br> our vision to your future</h1>
+                        <p class="wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, eligendi!<br> Ullam in totam aliquam et eius id magni. quis voluptas! Voluptatem nobis iusto explicabo!</p>
+                        <button class="wow animate__animated animate__fadeInDown">Get Started</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image/b3.jpg" class="d-block w-100" alt="...">
+                    <div class="carouselContent">
+                        <h1 class=" wow animate__animated animate__fadeInUp">We will show your issues<br> our vision to your future</h1>
+                        <p class="wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, eligendi!<br> Ullam in totam aliquam et eius id magni. quis voluptas! Voluptatem nobis iusto explicabo!</p>
+                        <button class="wow animate__animated animate__fadeInDown">Learn More</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image/b4.jpg" class="d-block w-100" alt="...">
+                    <div class="carouselContent">
+                        <h1 class="wow animate__animated animate__flipInX">We will show your issues<br> our vision to your future</h1>
+                        <p class="wow animate__animated animate__fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, eligendi!<br> Ullam in totam aliquam et eius id magni. quis voluptas! Voluptatem nobis iusto explicabo!</p>
+                        <button class="wow animate__animated animate__fadeInDown">Contact Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttonCreate">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+              </div>
+            
+
+            <!-- <div class="shape">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+                    <path fill-opacity="1">
+                      <animate attributeName="d" dur="20000ms" repeatCount="indefinite" values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                        M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;"></animate>
+                    </path>
+                  </svg>
+            </div> -->
+        </section>
+
+
+        <!-- about us -->
+        <section class="aboutUs">
+            <div class="container">
+                <div class="aboutContent">
+                    <div class="aboutText">
+                        <h2>ABOUT US</h2>
+                        <h3>We make the best strategies for<br> you, Enhancing your success</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud ullamco laboris nisi ut ex ea.
+                        </p>
+                        <ul>
+                            <li><span> <i class="fa-solid fa-circle-check"></i></span>UI/UX Design and Development</li>
+                            <li><span><i class="fa-solid fa-circle-check"></i></span>Branding Design and Identity</li>
+                            <li><span><i class="fa-solid fa-circle-check"></i></span>Mobile App Design and Development</li>
+                        </ul>
+                    </div>
+                    <div class="aboutPic">
+                        <div class="picItem">
+                            <img src="./image/about_1.jpeg" alt="">
+                        </div>
+                        <div class="picItem">
+                            <img src="./image/about_2.jpeg" alt="">
+                        </div>
+                        <div class="picItem">
+                            <img src="./image/about_3.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- support -->
+        <section class="support">
+            <div class="container">
+                <div class="supportContent">
+                    <div class="supportText">
+                        <h2>EVERY DAY BRINGS NEW CHALLENGES</h2>
+                        <h3>Creative agency focused on<br> vision, product and people</h3>
+                        <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.
+                        </p>
+                        <button>Discover More</button>
+                    </div>
+                    <div class="supportItem">
+                        <div class="itemBox">
+                            <div class="supportIcon">
+                                <img src="./image/support_1.png" alt="">
+                            </div>
+                            <h4>Our Process</h4>
+                        </div>
+                        <div class="itemBox">
+                            <div class="supportIcon">
+                                <img src="./image/support_2.png" alt="">
+                            </div>
+                            <h4>How We Help</h4>
+                        </div>
+                        <div class="itemBox">
+                            <div class="supportIcon">
+                                <img src="./image/support_3.png" alt="">
+                            </div>
+                            <h4>UX/UI Design</h4>
+                        </div>
+                        <div class="itemBox">
+                            <div class="supportIcon">
+                                <img src="./image/support_4.png" alt="">
+                            </div>
+                            <h4>Creative Ideas</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="service">
+            <div class="container">
+                <h2>Always there for your care, our Services</h2>
+                <div class="serviceContent">
+                    <div class="serviceItem">
+                        <div class="itemBg">
+                            <div class="servicePic">
+                                <img src="./image/service_1.jpeg" alt="">
+                                <a href="#" class="servicePicTitle">Work Expertise</a>
+                            </div>
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                    <div class="serviceItem">
+                        <div class="itemBg">
+                            <div class="servicePic">
+                                <img src="./image/service_2.jpeg" alt="">
+                                <a href="#" class="servicePicTitle">Work Expertise</a>
+                            </div>
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                    <div class="serviceItem">
+                        <div class="itemBg">
+                            <div class="servicePic">
+                                <img src="./image/service_3.jpeg" alt="">
+                                <a href="#" class="servicePicTitle">Work Expertise</a>
+                            </div>
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- gallery -->
+        <section class="gallery">
+            <div class="container">
+                <div class="galleryTitle">
+                    <h2>OUR GALLERY</h2>
+                    <p>Successful projects we've done</p>
+                </div>
+                <div class="galleryContent">
+                    <div class="galleryItem">
+                        <a href="./image/gallery_1.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 1</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_1.jpeg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <a href="./image/gallery_2.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 2</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_2.jpeg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <a href="./image/gallery_3.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 3</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_3.jpeg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <a href="./image/gallery_4.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 4</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_4.jpeg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <a href="./image/gallery_5.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 5</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_5.jpeg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <a href="./image/gallery_6.jpeg" data-fancybox data-caption="Single image">
+                            <div class="galleryOverlay">
+                                <div class="galleryOverlayContent">
+                                    <h2>Project 6</h2>
+                                    <p>Lorem ipsum dolor si consectetur. </p>
+                                </div>
+                            </div>
+                        </a> 
+                        <img src="./image/gallery_6.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- branding -->
+        <section class="brand">
+            <div class="container">
+                <div class="brandContent">
+                    <div class="brandItem">
+                        <img src="./image/brand_1.png" alt="">
+                    </div>
+                    <div class="brandItem">
+                        <img src="./image/brand_2.png" alt="">
+                    </div>
+                    <div class="brandItem">
+                        <img src="./image/brand_3.png" alt="">
+                    </div>
+                    <div class="brandItem">
+                        <img src="./image/brand_4.png" alt="">
+                    </div>
+                    <div class="brandItem">
+                        <img src="./image/brand_5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- achievement -->
+        <section class="achieve">
+            <div class="container">
+                <div class="achieveContent">
+                    <div class="achievePic">
+                        <img src="./image/achieve_1.jpeg" alt="">
+                    </div>
+                    <div class="achievement">
+                        <div class="achieveTitle">
+                            <h2>YOUR SUCCESS IS OUR SUCCESS</h2>
+                            <p>Web design, marketing & SEO <br> solutions that get results</p>
+                        </div>
+                        <div class="achieveBar">
+                            <div class="barItem">
+                                <h3>
+                                    Marketing
+                                    <span>80%</span>
+                                </h3>
+                                <div class="progressBar">
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar barColor1" style="width: 80%"></div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="barItem">
+                                <h3>
+                                    Responsive Web Design
+                                    <span>95%</span>
+                                </h3>
+                                <div class="progressBar">
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar barColor2" style="width: 95%" ></div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="barItem">
+                                <h3>
+                                    Analytics
+                                    <span>60%</span>
+                                </h3>
+                                <div class="progressBar">
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar barColor3" style="width: 60%"></div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="barItem">
+                                <h3>
+                                    Web Development
+                                    <span>85%</span>
+                                </h3>
+                                <div class="progressBar">
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar barColor4" style="width: 85%"></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- carousel -->
+        <section class="carousel2">
+            <div class="container">
+                <div class="carouselContent">
+                    <div class="carouselTitle">
+                        <p>Happy client feed back</p>
+                        <h2>Reviews and Testimonials</h2>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="carouselBg">
+                                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                                <div class="carouselIcon">
+                                    <div class="carouselIconPic">
+                                        <img src="./image/carouselicon_1.jpeg" alt="">
+                                    </div>
+                                    <div class="carouselIconPp">
+                                        <h3>John Wilson</h3>
+                                        <p>Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carouselBg">
+                                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                                <div class="carouselIcon">
+                                    <div class="carouselIconPic">
+                                        <img src="./image/carouselicon_2.jpeg" alt="">
+                                    </div>
+                                    <div class="carouselIconPp">
+                                        <h3>John Wilson</h3>
+                                        <p>Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carouselBg">
+                                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                                <div class="carouselIcon">
+                                    <div class="carouselIconPic">
+                                        <img src="./image/carouselicon_3.jpeg" alt="">
+                                    </div>
+                                    <div class="carouselIconPp">
+                                        <h3>John Wilson</h3>
+                                        <p>Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carouselBg">
+                                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                                <div class="carouselIcon">
+                                    <div class="carouselIconPic">
+                                        <img src="./image/carouselicon_4.jpeg" alt="">
+                                    </div>
+                                    <div class="carouselIconPp">
+                                        <h3>John Wilson</h3>
+                                        <p>Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- News -->
+        <section class="news">
+            <div class="container">
+                <div class="newsContent">
+                    <div class="newsTitle">
+                        <h2>LATEST NEWS</h2>
+                        <p>Our insight and articles</p>
+                    </div>
+                    <div class="newsItem">
+                        <div class="newsBg">
+                            <div class="newsPic">
+                                <img src="./image/news_1.jpeg" alt="">
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Startup Business</h3>
+                                <p>Hello World</p>
+                            </div>
+                            <div class="newsFooter">
+                                <img src="./image/newsicon.jpeg" alt="">
+                                <a href="#"><span>by</span>W3layout</a>
+                                <p>DEC 17 2023</p>
+                            </div>
+                        </div>
+                        <div class="newsBg">
+                            <div class="newsPic">
+                                <img src="./image/news_2.jpeg" alt="">
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Startup Business</h3>
+                                <p>Companies in NY launched a joint project on a three-tower hall</p>
+                            </div>
+                            <div class="newsFooter">
+                                <img src="./image/newsicon.jpeg" alt="">
+                                <a href="#"><span>by</span>W3layout</a>
+                                <p>DEC 17 2023</p>
+                            </div>
+                        </div>
+                        <div class="newsBg">
+                            <div class="newsPic">
+                                <img src="./image/news_3.jpeg" alt="">
+                            </div>
+                            <div class="newsInfo">
+                                <h3>Startup Business</h3>
+                                <p>Design breakthrough upgrades the product and ready to launch</p>
+                            </div>
+                            <div class="newsFooter">
+                                <img src="./image/newsicon.jpeg" alt="">
+                                <a href="#"><span>by</span>W3layout</a>
+                                <p>DEC 17 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- email submit -->
+        <section class="emailSubmit">
+            <div class="container">
+                <div class="emailTitle">
+                    <h2>Let’s find out how to work together</h2>
+                    <p>Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet <br> Lorem ipsum dolor sit amet elit.
+                    </p>
+                </div>
+                <div class="emailForm">
+                    <div class="formContent">
+                        <div class="emailIcon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <form>
+                            <input type="email" placeholder="Enter your email">
+                        </form>
+                        <button>Subcribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <!-- place footer here -->
+            <div class="container">
+                <div class="footerContent">
+                    <div class="footerItem1">
+                        <h1>
+                            <a href="#">
+                                <i class="fa-solid fa-align-right"></i>
+                                corp vision
+                            </a>
+                            <p>Vision to your Future</p>
+                        </h1>
+                        <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+                        <div class="footerIcon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="footerItem2">
+                        <h2>CONTACT INFO</h2>
+                        <ul>
+                            <li>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</li>
+                            <li>Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></li>
+                            <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                            <li>Support: <a href="mailto:info@support.com">info@support.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerItem3">
+                        <h2>CATEGORIES</h2>
+                        <ul>
+                            <li><a href="#">Marketing Strategy</a></li>
+                            <li><a href="#">Startup Business</a></li>
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerItem3">
+                        <h2>META</h2>
+                        <ul>
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">Entries feed</a></li>
+                            <li><a href="#">Comments feed</a></li>
+                            <li><a href="#">WordPress.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyRight">
+            <p>© 2023 Corp Vision All Rights Reserved | WordPress Theme by <span>W3Layouts.</span></p>
+        </div>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- slick -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $(document).ready(function(){
+  $('.your-class').slick({
+    slidesToShow: 1,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 2000,
+  });
+});
+        </script>
+
+        <!-- wow js -->
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+        <!-- fancybox -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+
+});
+        </script>
+
+        <!-- scroll add -->
+        <script>
+            $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $("header").addClass("activeScroll");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $("header").removeClass("activeScroll");
+        }
+    });
+});
+
+        </script>
+        <script>
+            $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".navbar-brand").addClass("activeScrollText");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".navbar-brand").removeClass("activeScrollText");
+        }
+    });
+});
+
+        </script>
+        <script>
+            $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".nav-link").addClass("activeScrollText2");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".nav-link").removeClass("activeScrollText2");
+        }
+    });
+});
+
+        </script>
+
+        <!-- backtotop -->
+        <a href="#" class="cd-top text-replace js-cd-top backtotop"><i class="fa-solid fa-chevron-up"></i></a>
+        
+        <script src="./back-to-top-master/assets/js/main.js"></script>
+        <script src="./back-to-top-master/assets/js/util.js"></script>
+        
+    </body>
 </html>
