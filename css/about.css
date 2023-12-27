@@ -245,6 +245,11 @@ div#small-dialog1 iframe {
   font-weight: 600;
   margin-bottom: 15px;
   line-height: 1.2;
+  transition: all .3s;
+}
+.company .card_text h4:hover{
+  color: #009f4d;
+  cursor: pointer;
 }
 .company .card_content p {
   font-size: 17px;
