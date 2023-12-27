@@ -238,6 +238,14 @@ div#small-dialog1 iframe {
   width: 40px;
   color: #009f4d;
 }
+.company .card_text h4{
+  display: block;
+  color: #3f3a64;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
 .company .card_content p {
   font-size: 17px;
   line-height: 27px;
@@ -449,6 +457,10 @@ div#small-dialog1 iframe {
   .web .item_bg {
     gap: 40px;
   }
+  .company .card_content{
+    padding: 50px 30px;
+    gap: 10px;
+  }
 }
 @media (max-width: 992px) {
   .banner .banner_content h2 {
@@ -465,6 +477,9 @@ div#small-dialog1 iframe {
   .choose .choose_text h3 {
     font-size: 22px;
   }
+  .company .card_content{
+    padding: 40px 30px;
+  }
 }
 @media (max-width: 576px) {
   .banner .banner_content h2 {
@@ -480,6 +495,7 @@ div#small-dialog1 iframe {
   .web .img img {
     width: 100%;
   }
+  
 }
 
 @media (max-width: 480px) {
@@ -521,7 +537,9 @@ div#small-dialog1 iframe {
   .choose .choose_text h3 {
     font-size: 20px;
   }
-
+  .company .card_content{
+    padding: 30px 25px;
+  }
 }
 @media (max-width: 384px) {
   .banner .banner_content h2 {
