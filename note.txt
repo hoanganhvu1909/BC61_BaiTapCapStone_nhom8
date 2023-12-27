@@ -1,4 +1,14 @@
 Layout 5
 HTML, CSS, Bootstrap
+
 Thành viên:
 1. Hoàng Anh Vũ
+2. Tiêu Minh Duy
+
+Phân công công việc:
+Vũ: page: About, Service, Contact
+Duy: page: Home, page-blog, page-error
+
+Link deploy: https://bc-61-bai-tap-cap-stone-nhom8-n5rn8r8eg-anhvus-projects.vercel.app/
+
+
