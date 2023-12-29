@@ -13,4 +13,5 @@ Link github: https://github.com/hoanganhvu1909/BC61_BaiTapCapStone_nhom8.git
 
 Link deploy: https://bc-61-bai-tap-cap-stone-nhom8.vercel.app/
 
+Link Youtube: https://youtu.be/GMFASimB6Uk
 
