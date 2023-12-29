@@ -1250,7 +1250,7 @@ footer .footerContent {
 .copyRight span:hover {
     color: #fff;
 }
-.active {
+header .active {
     color:#04A540 !important;
 }
 .backtotop {
